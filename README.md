@@ -31,6 +31,12 @@ place breakpoints in Assembly-CSharp, as there is no .mdb file for it.  The
 requirement of the .mdb file to place breakpoints is the reason for pdb2mdb's
 inclusion as a post-build event.
 
+## Screenshots
+
+**Debugging in Visual Studio Tools for Unity**
+
+![Debugging Example](https://raw.githubusercontent.com/HearthSim/dynity/master/img/debugging.png)
+
 ## License information
 
 dynity is MIT licensed
