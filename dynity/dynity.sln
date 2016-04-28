@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dynity", "dynity.vcxproj", "{EEE48D28-166A-4960-A73D-6B166C1F2156}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Inject", "..\Inject\Inject.vcxproj", "{7B9B96C4-87DB-406F-87E3-B1872B4CB502}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEE48D28-166A-4960-A73D-6B166C1F2156}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EEE48D28-166A-4960-A73D-6B166C1F2156}.Debug|Win32.Build.0 = Debug|Win32
+		{EEE48D28-166A-4960-A73D-6B166C1F2156}.Release|Win32.ActiveCfg = Release|Win32
+		{EEE48D28-166A-4960-A73D-6B166C1F2156}.Release|Win32.Build.0 = Release|Win32
+		{7B9B96C4-87DB-406F-87E3-B1872B4CB502}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7B9B96C4-87DB-406F-87E3-B1872B4CB502}.Debug|Win32.Build.0 = Debug|Win32
+		{7B9B96C4-87DB-406F-87E3-B1872B4CB502}.Release|Win32.ActiveCfg = Release|Win32
+		{7B9B96C4-87DB-406F-87E3-B1872B4CB502}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,10 @@
+*.user
+*.suo
+*.sdf
+*.opensdf
+*/Debug
+*/Release
+*/bin
+*/obj
+Test/lib/*.dll
+Test/lib/*.xml
