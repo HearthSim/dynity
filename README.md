@@ -9,8 +9,9 @@ It also has a simple hook that allows debugging Hearthstone in the Visual Studio
 Tools for Unity.  To set this up:
 
 - Build the `dynity` solution to produce Inject.exe and dynity.dll.
-- Build the `Test` solution.  You'll need to edit the paths in the Post-Build
-Event to point to your Hearthstone directory.
+- Build the `Test` solution.  You'll need to edit the paths in populate_lib.bat
+and the Post-Build Event to point to your Hearthstone directory, and then run
+populate_lib to copy dlls from Hearthstone to the lib folder.
 - Set the environment variable UNITY_GIVE_CHANCE_TO_ATTACH_DEBUGGER to 1.  You
 will need to restart Agent.exe and Battle.net.exe for this environment change to
 take effect on Hearthstone.
