@@ -19,10 +19,7 @@ take effect on Hearthstone.
 debugger now if you want`.  Run Inject.exe, then once the console window for
 dynity appears (it should read `mono successfully loaded`), press Ok.
 - In the `Test` solution, go to Debug > Attach Unity Debugger.
-- For some reason, the mono debugger instance wasn't announcing itself, so I
-needed to click on `Input IP` and enter the port number mono bound to.  To find
-the port number, I used Process Explorer; the port is a TCP listen in the range
-56000-56999.
+- Click on `Input IP`, the default port of 56000 is correct, so just press Ok.
 - Now you should be able to place a breakpoint in the code of Test.dll, for
 example at the installed MonoBehaviour's Update() (`Test.FrameBehaviour:Update`)
 method, and it should be hit.  From there, I was able to use QuickWatch to look

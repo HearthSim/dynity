@@ -11,7 +11,7 @@ const char *gAssemblyMethodDesc;
 // right after the debugger is initialized in the development version of Unity Player.
 void mono_set_commandline_arguments_hook(int argc, const char **argv, char *baseDir) {
 	LogPrintln("mono_set_commandline_arguments hook called");
-	const char *jitOpts = "--debugger-agent=transport=dt_socket,embedding=1,defer=y";
+	const char *jitOpts = "--debugger-agent=transport=dt_socket,embedding=1,server=y,address=0.0.0.0:56000,defer=y";
 	char *jitArgv[1];
 	jitArgv[0] = _strdup(jitOpts);
 	mono_jit_parse_options(1, jitArgv);
